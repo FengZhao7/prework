@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "tip calculator"
+        billAmountTextField.keyboardType = 	.numberPad
         // Do any additional setup after loading the view.
     }
 
